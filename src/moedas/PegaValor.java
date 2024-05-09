@@ -20,10 +20,9 @@ public class PegaValor {
         JsonParser parser = new JsonParser();
         JsonElement jsonElement = parser.parse(String.valueOf(meuCambio.conversion_rates()));
 
-        JsonObject teste = jsonElement.getAsJsonObject();
-        double brazil = teste.get(moeda2).getAsDouble();
+        JsonObject objetoJson = jsonElement.getAsJsonObject();
+        double convertido = objetoJson.get(moeda2).getAsDouble();
 
-
-        return brazil;
+        return convertido;
     }
 }
