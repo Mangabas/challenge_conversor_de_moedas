@@ -1,44 +1,36 @@
-# Literalura
-![Static Badge](https://img.shields.io/badge/Java-Blue)
+# Conversor de moedas
+![java](https://img.shields.io/badge/Java-red)
+
 
 * [Sobre](#Sobre)
-* [Gutendex](#Gutendex)
+* [ExchangeRate](#ExchangeRate)
 * [Funcionalidades](#Funcionalidades)
 * [Pré-requisitos](#Pré-requisitos)
 * [Tecnologias](#Tecnologias)
 * [Badge](#Badge)
   
 ## Sobre
-Literalura é um desafio da Alura juntamente da Oracle Next Education, seu objetivo é desenvolver uma aplicação Back-end para pesquisa de livros e autores por meio de uma API e guarda-los 
-em um banco de dados.
-## Gutendex
-A Api utilizada é a da Gutendex, que facilita o acesso ao acervo do Projeto Gutenberg, uma coleção de livros de domínio público. Através da Gutendex, é possível buscar e filtrar livros por 
-diversos critérios, como autor, título, idioma e assunto, tornando mais fácil encontrar e acessar milhares de obras literárias gratuitamente.  
+Este projeto é um desafio da Alura juntamente da Oracle Next Education, com o intuito de testar as habilidades em Java relacionadas a Orientação de Obejtos. O challenge se resume a um 
+programa responsável por usar uma API para realizar conversões de moedas internacionais.
 
-É possível acessar a documentação API por meio deste link:  
-https://gutendex.com/
+## ExchangeRate
+ExchangeRate-API é um serviço de conversão de moedas que suporta 161 moedas. Ideal para SaaS, e-commerce e dashboards, oferece dados precisos e planos gratuitos e pagos, variando em frequência de atualização e limites de requisições.
+
+Para mais informações, visite: https://www.exchangerate-api.com/
 
 ## Funcionalidades
-- Buscar livro: Busca o livro baseado em seu nome.
-- Listar livros: Lista todos os livros registrados no banco de dados.
-- Listar autores: Lista todos os autores baseado nos livros registrados no banco de dados.
-- Autores por ano: Lista todos os autores vivos em determinado ano.
-- Livro por linguagem: Lista todos os livros disponíveis em uma de quatro linguagens: inglês, espanhol, francês e português.
+![Captura de tela 2024-07-23 184418](https://github.com/user-attachments/assets/dc500ccc-6f5f-400c-9cf6-6a755d3bef38)
 
 ## Pré-requisitos
 
 - Java 17 ou superior instalado.
-- Maven instalado para construção do projeto.
-- Variáveis de ambiente `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`.
-- Configure um banco de dados `PostgreSQL` com o nome e credenciais especificadas em application.properties.
 
 ## Tecnologias
-- **Spring Boot**
-- **Spring Data JPA**
-- **PostgreSQL**
-- **Jackson**
+- **Java**
+- **Gson**
 
 ## Badge
 Este é o badge conquistado por ter desenvolvido este projeto com a Alura no programa ONE - "Oracle Next Education" em parceria com a Oracle:
 
-![badge literalura](https://github.com/user-attachments/assets/e3974331-96d8-4482-9f45-8bfc40d431ee)
+
+![Badge-Conversor(Uma vez baixada a sua insígnia, compartilhe no LinkedIn e em todas as suas redes sociais, marcando #Alura e #oraclenexteducation!)](https://github.com/user-attachments/assets/ef7110af-5a56-4209-9701-b97760ded3d4)
